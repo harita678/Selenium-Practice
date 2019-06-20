@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2019-06-19T21:30:00Z" name="Default suite" finished-at="2019-06-19T21:30:16Z" duration-ms="16653">
+    <groups>
+    </groups>
+    <test started-at="2019-06-19T21:30:00Z" name="Default test" finished-at="2019-06-19T21:30:16Z" duration-ms="16653">
+      <class name="ca.haritagandhi.MavenTest.testcases.RegisterPageTest">
+        <test-method is-config="true" signature="makeConnection()[pri:0, instance:ca.haritagandhi.MavenTest.testcases.RegisterPageTest@1f59a598]" started-at="2019-06-19T17:30:00Z" name="makeConnection" finished-at="2019-06-19T17:30:05Z" duration-ms="5032" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- makeConnection -->
+        <test-method signature="testWarningMsg()[pri:0, instance:ca.haritagandhi.MavenTest.testcases.RegisterPageTest@1f59a598]" started-at="2019-06-19T17:30:05Z" name="testWarningMsg" finished-at="2019-06-19T17:30:06Z" duration-ms="1076" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWarningMsg -->
+        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:ca.haritagandhi.MavenTest.testcases.RegisterPageTest@1f59a598]" started-at="2019-06-19T17:30:06Z" name="quitBrowser" finished-at="2019-06-19T17:30:06Z" duration-ms="686" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+        <test-method is-config="true" signature="makeConnection()[pri:0, instance:ca.haritagandhi.MavenTest.testcases.RegisterPageTest@1f59a598]" started-at="2019-06-19T17:30:06Z" name="makeConnection" finished-at="2019-06-19T17:30:10Z" duration-ms="3813" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- makeConnection -->
+        <test-method signature="testGetRegisterPageTitle()[pri:0, instance:ca.haritagandhi.MavenTest.testcases.RegisterPageTest@1f59a598]" started-at="2019-06-19T17:30:10Z" name="testGetRegisterPageTitle" finished-at="2019-06-19T17:30:10Z" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetRegisterPageTitle -->
+        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:ca.haritagandhi.MavenTest.testcases.RegisterPageTest@1f59a598]" started-at="2019-06-19T17:30:10Z" name="quitBrowser" finished-at="2019-06-19T17:30:11Z" duration-ms="624" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+        <test-method is-config="true" signature="makeConnection()[pri:0, instance:ca.haritagandhi.MavenTest.testcases.RegisterPageTest@1f59a598]" started-at="2019-06-19T17:30:11Z" name="makeConnection" finished-at="2019-06-19T17:30:15Z" duration-ms="3655" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- makeConnection -->
+        <test-method signature="testPageTitle()[pri:0, instance:ca.haritagandhi.MavenTest.testcases.RegisterPageTest@1f59a598]" started-at="2019-06-19T17:30:15Z" name="testPageTitle" finished-at="2019-06-19T17:30:16Z" duration-ms="1033" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPageTitle -->
+        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:ca.haritagandhi.MavenTest.testcases.RegisterPageTest@1f59a598]" started-at="2019-06-19T17:30:16Z" name="quitBrowser" finished-at="2019-06-19T17:30:16Z" duration-ms="703" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- ca.haritagandhi.MavenTest.testcases.RegisterPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

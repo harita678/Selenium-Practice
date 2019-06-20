@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="ca.haritagandhi.MavenTest.testcases.HomePageTest">
+        <methods>
+          <include name="quitBrowser"/>
+          <include name="makeConnection"/>
+        </methods>
+      </class> <!-- ca.haritagandhi.MavenTest.testcases.HomePageTest -->
+      <class name="ca.haritagandhi.MavenTest.testcases.ForgotPasswordPageTest">
+        <methods>
+          <include name="makeConnection"/>
+          <include name="quitBrowser"/>
+        </methods>
+      </class> <!-- ca.haritagandhi.MavenTest.testcases.ForgotPasswordPageTest -->
+      <class name="ca.haritagandhi.MavenTest.testcases.RegisterPageTest">
+        <methods>
+          <include name="testWarningMsg"/>
+          <include name="quitBrowser"/>
+          <include name="makeConnection"/>
+        </methods>
+      </class> <!-- ca.haritagandhi.MavenTest.testcases.RegisterPageTest -->
+      <class name="ca.haritagandhi.MavenTest.testcases.LoginPageTest">
+        <methods>
+          <include name="makeConnection"/>
+          <include name="quitBrowser"/>
+        </methods>
+      </class> <!-- ca.haritagandhi.MavenTest.testcases.LoginPageTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
