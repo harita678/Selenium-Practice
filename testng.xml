@@ -1,12 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite parallel="classes" name="Suite">
-  <test thread-count="5" parallel="classes" name="Test">
+<suite parallel="tests" name="Suite">
+  <test name="TestChrome">
+  <parameter name="browser" value="chrome"></parameter>
     <classes>
-      <class name="ca.haritagandhi.MavenTest.testcases.HomePageTest"/>
-      <class name="ca.haritagandhi.MavenTest.testcases.ForgotPasswordPageTest"/>
+<!--       <class name="ca.haritagandhi.MavenTest.testcases.HomePageTest"/> -->
+<!--       <class name="ca.haritagandhi.MavenTest.testcases.ForgotPasswordPageTest"/> -->
+<!--          <class name="ca.haritagandhi.MavenTest.testcases.RegisterPageTest"/> -->
+     
       <class name="ca.haritagandhi.MavenTest.testcases.LoginPageTest"/>
-      <class name="ca.haritagandhi.MavenTest.testcases.RegisterPageTest"/>
+    </classes>
+   </test> 
+   <test name="Testfirefox">
+    <parameter name="browser" value="firefox"></parameter>
+    <classes>
+      <class name="ca.haritagandhi.MavenTest.testcases.LoginPageTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

@@ -4,6 +4,8 @@ import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Optional;
+import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 import ca.haritagandhi.MavenTest.LoginPage;
@@ -15,10 +17,11 @@ public class LoginPageTest
 
    LoginPage loginPage;
 
+   @Parameters({"browser"})
    @BeforeMethod
-   public void makeConnection()
+   public void makeConnection(@Optional String browser)
    {
-      driver = TestBase.stratBrowser("chrome");
+      driver = TestBase.stratBrowser(browser);
       loginPage = new LoginPage(driver);
       TestBase.startWebsite("http://tutorialsninja.com/demo/index.php?route=account/login");
 
